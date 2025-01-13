@@ -38,5 +38,5 @@ func handleIndex(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	w.Write([]byte("hello from http server"))
+	w.Write([]byte("notes api"))
 }
